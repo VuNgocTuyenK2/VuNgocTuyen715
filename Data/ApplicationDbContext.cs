@@ -15,5 +15,6 @@ namespace VuNgocTuyen715.Data
         }
 
         public DbSet<VuNgocTuyen715.Models.Student> Student { get; set; } = default!;
+        public DbSet<VuNgocTuyen715.Models.Faculty> Faculty { get; set; } = default!;
     }
 }
